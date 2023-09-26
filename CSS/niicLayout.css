@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    /*modifica a maneira de exibir o tamanho de uma caixa, define como as dimensoes de um elemento sao calculadas: devem incluir preenchimento e bordas ou nao*/
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(52, 27, 75);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.cabecalho{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(132, 26, 182);
+}
+
+.cabecalho h1{
+    font-size: 50px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: rgb(12, 9, 14);
+}
+
+.topnav a{
+    display: block;
+    color: rgb(144, 95, 190);
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+.topnav a:hover{
+    background-color: rgb(111, 60, 134);
+    color: rgb(111, 60, 134);
+    border-bottom: solid 1px rgb(17, 16, 17);
+    border-radius: 5px;
+}
+
+.colEsq {
+    float: left;
+    width: 50%;
+    background-color: rgb(248, 248, 248);
+    padding: 20px;
+}
+
+.colDir {
+    float: right;
+    width: 50%;
+    background-color: rgb(56, 30, 61);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.images {
+    background-color: rgb(92, 207, 117);
+    width: 30%;
+    padding: 20px;
+}
+
+.card1 {
+    padding: 20px;
+    margin-top: 20px;
+}
+.card2 {
+    background-color: rgb(65, 29, 99);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.principal::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(84, 26, 112);
+    margin-top: 50px; 
+}
+
+.imagens img{
+    width: 12%;
+}
+
+.colEsc{
+    width: 100%;
+    padding: 0%;
+}
+.colDir{
+    width: 100%;
+    padding: 0%;
+}
+
+
+.imagensesq {
+    float: left;
+}
+
+.imagensesq img{
+    width: 100px;
+}
+
+.listasemmarcador{
+    list-style: circle;
+}
+
+div{
+    display: block;
+}
